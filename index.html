@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bloom Filter</title>
+        <link rel="stylesheet" type="text/css" href="src/style.css"/>
+        <script src="lib/d3.v3.js"></script>
+        <script src="src/bloomFilter.js"></script>
+        
+    </head>
+    <body>
+        <section class="controls">
+            <input id="m" type="text" placeholder="m" name="m">
+            <input id="k" type="text" placeholder="k" name="k">
+            <button id="regenerate" type="button">Regenerate</button>
+            <input id="item" type="text" placeholder="item" name="item">
+            <button id="add" type="button">Add</button>
+            <button id="contains" type="button">Contains</button>
+        </section>
+        <div class="container"></div>
+    </body>
+    <script src="src/script.js"></script>
+</html>
